@@ -46,6 +46,7 @@ client.login(TOKEN);
 const queue = new Map();
 var table = require("table").table;
 const Discord = require("discord.js");
+const prefix = '+'
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -2288,7 +2289,7 @@ client.on('message', message => {
 });
 
  
-
+client.login('NzMyNjAxMTI2MTcxNDQzMjQw.Xw299w.nba2evB7VM1-7_QLLUALVhY8Odk');
 
 
 
