@@ -2289,7 +2289,7 @@ client.on('message', message => {
 });
 
  
-client.login('NzMyNjAxMTI2MTcxNDQzMjQw.Xw299w.nba2evB7VM1-7_QLLUALVhY8Odk');
+client.login('process.env.TOKEN');
 
 
 
